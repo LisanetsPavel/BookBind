@@ -1,0 +1,166 @@
+html,body {
+    min-height: 100%;
+    height: 900px;
+}
+
+.topNav{
+    margin-bottom: 0 !important;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 6%;
+    min-height: 5% !important;
+    border: 0;
+    border-radius: 0px !important;
+    background-color: #2E8B66;
+    box-shadow: 1px 1px 4px #698B69;
+}
+
+h2{
+  text-align: center;
+  width: 250px !important;
+}
+
+.exitButton{
+    top: 8px;
+    float: right !important;
+}
+
+.all{
+    width: 100%;
+    height: 100%;
+}
+.bace{
+    background-color: #8FBC8F;
+    height: 100%;
+}
+.btnStyle{
+    background-color: #3CB371;
+}
+.btnStyle:hover{
+    background-color: #F4A460;
+
+}
+.fitter{
+    border: 2px;
+    border-radius: 10px;
+    width: 96%;
+    box-shadow:1px 1px 4px #698B69;
+}
+.fitterTmp{
+    border: 2px;
+    border-radius: 10px;
+    box-shadow:1px 1px 4px #698B69;
+}
+
+.contentWrapper{
+    background-color: #8FBC8F;
+    height:90%;
+    display: block;
+}
+.topHeader{
+    background-color: #2E8B66;
+    box-shadow: 0px 2px #698B69;
+    display:block;
+}
+.postgrace {
+    background-color:#E6E6FA;
+    box-shadow:1px 1px 4px #698B69;
+    border: 2px;
+    border-radius: 10px;
+    height: 98%;
+    margin-top: 1%;
+    display: block;
+
+}
+.irbis {
+    background-color:#E6E6FA;
+    box-shadow:1px 1px 4px #698B69;
+    border: 2px;
+    border-radius: 10px;
+    height: 98%;
+    margin-top: 1%;
+    display: block;
+}
+.postbookInfo{
+    width: 96% !important;
+    margin-top: 5px;
+    background-color: #FAF0E6;
+    border-radius: 5px;
+    height: 90px;
+    overflow: auto;
+    margin-left: 2%;
+}
+.irbisbookInfo{
+    width: 96%;
+    margin-top: 5px;
+    background-color: #FAF0E6;
+    border-radius: 5px;
+    height: 60%;
+    overflow: auto;
+}
+
+.postView{
+    margin-top: 10px;
+    height: 70%;
+    overflow: auto;
+}
+.postView img {
+
+    width: 100%;
+    height: 100%;
+
+}
+.bookRewind{
+    position: absolute !important;
+    bottom: 5%;
+}
+
+.prevBook{
+    float: left;
+}
+.nextBook {
+    float: right;
+}
+
+.irbisbookRewind{
+    position: absolute !important;
+    bottom: 18%;
+}
+
+.searchResult{
+    width: 98%;
+    margin-top: 5px;
+    background-color: #FAF0E6;
+    border-radius: 5px;
+    height: 1.5em;
+}
+
+.bindGroup{
+    position: absolute !important;
+    bottom: 7%;
+}
+#bindButton{
+    background-color: #c91241;
+}
+#rejectButton{
+    background-color: #fbd977;
+}
+
+#bindButton{
+    background-color: #c91241;
+    color: whitesmoke;
+}
+#rejectButton{
+    background-color: #fbd977;
+}
+#bindButton:hover{
+    background-color: #c97582;
+}
+#rejectButton:hover{
+    background-color: #dbfb9c;
+}
+
+
+
+
+ 

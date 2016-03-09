@@ -1,0 +1,9 @@
+*.iml
+.idea/
+out/
+*.properties
+*.xml
+target/
+*.jpg
+*war
+
