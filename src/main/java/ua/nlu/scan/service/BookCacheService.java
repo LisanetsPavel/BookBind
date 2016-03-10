@@ -4,6 +4,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by pc8 on 02.03.16.
@@ -11,7 +12,7 @@ import java.util.Map;
 @Service
 public class BookCacheService {
 
-    private final Map<String, Integer> cache = new HashMap<>();
+    private final Map<String, Integer> cache = new ConcurrentHashMap<>();
 
     public void add(String bookId, Integer cursor) {
         cache.put(bookId, cursor);
